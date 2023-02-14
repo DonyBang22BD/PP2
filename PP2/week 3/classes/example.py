@@ -71,30 +71,30 @@
 
 # Еще один пример
 
-# class Animal():
-#     def __init__(self,name):
-#         self.name = name
-#         print(f"Animal created \n")    
-#     def eat(self):
-#         print(f"{self.name} is eating \n")
+class Animal():
+    def __init__(self,name):
+        self.name = name
+        print(f"Animal created \n")    
+    def eat(self):
+        print(f"{self.name} is eating \n")
 
-# class Dog(Animal):
-#     def __init__(self,name,breed):
-#         super().__init__(name)
-#         self.breed = breed
-#     def bark(self):
-#         print(f"Dog named {self.name} is barking \n")
+class Dog(Animal):
+    def __init__(self,name,breed):
+        super().__init__(name)
+        self.breed = breed
+    def bark(self):
+        print(f"Dog named {self.name} is barking \n")
 
-# class Cat(Animal):
-#     def __init__(self,name):
-#         super().__init__(name)
-#     def meow(self):
-#         print(f"{self.name} says Meow \n")
-# class Frog(Animal):
-#     def _init_(self,name):
-#         super().__init__(name)
-#     def eat(self):
-#         print(f"Frog with name {self.name} is eating  \n")
+class Cat(Animal):
+    def __init__(self,name):
+        super().__init__(name)
+    def meow(self):
+        print(f"{self.name} says Meow \n")
+class Frog(Animal):
+    def _init_(self,name):
+        super().__init__(name)
+    def eat(self):
+        print(f"Frog with name {self.name} is eating  \n")
 
 # d = Dog("Aktos","Bulldog")
 # c = Cat("Murcka")
