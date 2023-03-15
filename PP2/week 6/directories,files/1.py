@@ -1,4 +1,9 @@
-f = open("demofile.txt","r")
-print(f.readline().rstrip())
-f.close()
-print(f.closed)
+
+import os
+
+# Path to list directories and files
+path = r'C:\Users\Acer\Desktop\Python'
+
+print("Directories and Files:")
+for entry in os.listdir(path):
+    print(entry)
